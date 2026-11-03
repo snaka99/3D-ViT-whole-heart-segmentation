@@ -1,0 +1,62 @@
+# Medical datasets and labels
+data/
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+*.dcm
+
+# Checkpoints and model weights
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Predictions, evaluations and experiments
+results/
+runs/
+outputs/
+checkpoints/
+logs/
+wandb/
+lightning_logs/
+*.xls
+*.xlsx
+*.csv
+
+# Python environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# External tools / binaries
+tools/mmwhs/*.exe
+tools/mmwhs/*.dll
+
+# Windows metadata
+*:Zone.Identifier
+
+# Backup files
+*.bak
+
+# Python package metadata
+*.egg-info/

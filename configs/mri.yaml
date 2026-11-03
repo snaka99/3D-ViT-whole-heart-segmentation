@@ -1,0 +1,11 @@
+modality: mri
+img_size: [128, 128, 96]
+intensity_min: 6.0
+intensity_max: 1200.0
+include_background: true
+nfolds: 5
+cv_seed: 12345
+train_seed: 0
+lr: 0.0001
+max_iterations: 27000
+eval_interval: 500
